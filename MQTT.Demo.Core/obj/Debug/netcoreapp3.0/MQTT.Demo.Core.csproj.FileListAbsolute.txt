@@ -1,8 +1,0 @@
-D:\code\dotnet\MQTT.Demo\MQTT.Demo.Core\bin\Debug\netcoreapp3.0\MQTT.Demo.Core.deps.json
-D:\code\dotnet\MQTT.Demo\MQTT.Demo.Core\bin\Debug\netcoreapp3.0\MQTT.Demo.Core.dll
-D:\code\dotnet\MQTT.Demo\MQTT.Demo.Core\bin\Debug\netcoreapp3.0\MQTT.Demo.Core.pdb
-D:\code\dotnet\MQTT.Demo\MQTT.Demo.Core\obj\Debug\netcoreapp3.0\MQTT.Demo.Core.csprojAssemblyReference.cache
-D:\code\dotnet\MQTT.Demo\MQTT.Demo.Core\obj\Debug\netcoreapp3.0\MQTT.Demo.Core.AssemblyInfoInputs.cache
-D:\code\dotnet\MQTT.Demo\MQTT.Demo.Core\obj\Debug\netcoreapp3.0\MQTT.Demo.Core.AssemblyInfo.cs
-D:\code\dotnet\MQTT.Demo\MQTT.Demo.Core\obj\Debug\netcoreapp3.0\MQTT.Demo.Core.dll
-D:\code\dotnet\MQTT.Demo\MQTT.Demo.Core\obj\Debug\netcoreapp3.0\MQTT.Demo.Core.pdb
