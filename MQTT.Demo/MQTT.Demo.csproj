@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="log4net" Version="2.0.8" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.0-preview1.19506.1" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.0-preview1.19506.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="log4net.config">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MQTT.Demo.Core\MQTT.Demo.Core.csproj" />
+    </ItemGroup>
+
+</Project>
